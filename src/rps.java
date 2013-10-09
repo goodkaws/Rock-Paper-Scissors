@@ -59,19 +59,25 @@ public class rps {
 	        if (compChoice.equals("rock")) {
 	        	switch(userChoice) {
 	        		case "rock":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nWoah! Too much Rock! It's a tie!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nWoah! Too much Rock! It's a tie!\n");
 	        			ties++;
 	        			games++;
 	        			break;
 
 	        		case "paper":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nGot em! You win! Paper wraps up Rock!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nGot em! You win! Paper wraps up Rock!\n");
 	        			wins++;
 	        			games++;
 	        			break;
 
 	        		case "scissors":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nBummerrrrr. You lose :( Scissors is smashed by Rock!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nBummerrrrr. You lose :( Scissors is smashed by Rock!\n");
 	        			loses++;
 	        			games++;
 	        			break;
@@ -81,19 +87,25 @@ public class rps {
 	        if (compChoice.equals("paper")) {
 	        	switch(userChoice) {
 	        		case "rock":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nBummerrrrr. You lose :( Paper wraps up Rock.\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nBummerrrrr. You lose :( Paper wraps up Rock.\n");
 	        			loses++;
 	        			games++;
 	        			break;
 
 	        		case "paper":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nWoah! Too much Paper! It's a tie!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nWoah! Too much Paper! It's a tie!\n");
 	        			ties++;
 	        			games++;
 	        			break;
 
 	        		case "scissors":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nGot em! You win! Scissors cut up Paper!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nGot em! You win! Scissors cut up Paper!\n");
 	        			wins++;
 	        			games++;
 	        			break;
@@ -103,19 +115,25 @@ public class rps {
 	        if (compChoice.equals("scissors")) {
 	        	switch(userChoice) {
 	        		case "rock":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nGot em! You win! Rock smashes up Scissors!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nGot em! You win! Rock smashes up Scissors!\n");
 	        			wins++;
 	        			games++;
 	        			break;
 
 	        		case "paper":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nBummerrrrr. You lose :( Scissors cuts up paper!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nBummerrrrr. You lose :( Scissors cuts up paper!\n");
 	        			loses++;
 	        			games++;
 	        			break;
 
 	        		case "scissors":
-	        			System.out.println("Your Weapon: " + userChoice +"\nComputer's Weapon: " + compChoice + "\nWoah! Too many sharp objects around here! It's a tie!\n");
+	        			System.out.println("Your Weapon: " + userChoice 
+	        					+ "\nComputer's Weapon: " + compChoice 
+	        					+ "\nWoah! Too many sharp objects around here! It's a tie!\n");
 	        			ties++;
 	        			games++;
 	        			break;
@@ -144,6 +162,9 @@ public class rps {
         } while(rematch.equals("yes"));
         
       //Print out game statistics! 
-	    System.out.println("Thanks for playing! Check out some of your statistics from the recent game(s):\n\nWins: " + wins + "\nTies: " + ties + "\nLoses: " + loses + "\nGames Played: " + games); 
+	    System.out.println("Thanks for playing! Check out some of your statistics from the recent game(s):\n\nWins: " + wins 
+	    		+ "\nTies: " + ties 
+	    		+ "\nLoses: " + loses 
+	    		+ "\nGames Played: " + games); 
 	}
 }
